@@ -3,7 +3,7 @@
 set -e
 
 # General build options
-# WORKSPACE=YourWorkspace.xcworkspace
+WORKSPACE=ObsExample.xcworkspace
 PROJECT=ObsExample.xcodeproj
 SCHEME=ObsExample
 CONFIGURATION=Debug
