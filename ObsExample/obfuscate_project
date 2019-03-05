@@ -6,7 +6,7 @@ set -e
 # WORKSPACE=YourWorkspace.xcworkspace
 PROJECT=ObsExample.xcodeproj
 SCHEME=ObsExample
-CONFIGURATION=Release
+CONFIGURATION=Debug
 SDK=12.0
 
 # Additional build options
