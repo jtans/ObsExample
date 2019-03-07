@@ -7,6 +7,9 @@ target 'ObsExample' do
 
   # Pods for ObsExample
   pod 'SDWebImage'
+  pod 'UMCCommon'
+  pod 'UMCSecurityPlugins'
+  pod 'UMCAnalytics'
   target 'ObsExampleUITests' do
     inherit! :search_paths
     # Pods for testing

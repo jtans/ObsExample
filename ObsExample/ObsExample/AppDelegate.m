@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <UMCommon/UMCommon.h>
+
 
 @interface AppDelegate ()
 
@@ -17,6 +19,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [UMConfigure setEncryptEnabled:YES];//打开加密传输
+    [UMConfigure setLogEnabled:YES];//设置打开日志
+    [UMConfigure initWithAppkey:@"sfsf" channel:@"AppStore"];
     return YES;
 }
 
